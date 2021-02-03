@@ -38,9 +38,9 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
-            + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' 
+            + 'FN:Billa Chan\n' 
+            + 'ORG: Pengembang Aybpr;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6288706650883:+62 887-0665-0883\n' 
             + 'END:VCARD' 
 blocked = []   
 prefix = '#'
@@ -50,7 +50,7 @@ cr = '*BOT INI SUDAH TERVERIFIKASI*'
 /*************************************/
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["62895710073737@s.whatsapp.net","6282334297175@s.whatsapp.net"] 
+const ownerNumber = ["6288706650883@s.whatsapp.net","6285641345088@s.whatsapp.net"] 
 /************************************/
 
        
@@ -247,7 +247,7 @@ function kyun(seconds){
 const client = new WAConnection()
    client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(color('[','white'),color('∆','red'),color(']','white'),color('qr already scan.subscribe','white'),color('YOU','red'),color('TUBE','white'),color('ampibi gaming','yellow'))
+   console.log(color('[','white'),color('∆','red'),color(']','white'),color('qr already scan.subscribe','white'),color('YOU','red'),color('TUBE','white'),color('yoks officiall_','yellow'))
 })
 
 client.on('credentials-updated', () => {
