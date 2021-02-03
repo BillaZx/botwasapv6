@@ -124,7 +124,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Role* : ${role}
 ┣⊱ *Level* : ${getLevelingLevel(sender)}
 ┣⊱ *User register* : ${_registered.length}
-┗━━━⊱  ⸨ ```BILA``` ⸩  ⊰━━━━┛
+┗━━━⊱  ⸨ *BILA* ⸩  ⊰━━━━┛
 
 
 ┏━━⊱ *MAKER MENU* ⊰━━┓
@@ -221,7 +221,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ NOTE : TQTO DI HAPUS
 ┃ GW GAK UP LAGI OKE
 ┃
-┗━━⊱  ⸨ ```Y0KS BOT``` ⸩  ⊰━━━━┛
+┗━━⊱  ⸨ *Y0KS BOT* ⸩  ⊰━━━━┛
 `
 }
 
